@@ -1,0 +1,46 @@
+.container{
+	background-image: url('b.jpeg');
+	padding: auto auto;
+}
+.item-grid{
+	padding: 20px;
+}
+.item-grid img{
+	
+	box-shadow: 2px 2px 30px;
+	border-radius: 0px 20px 0px 20px;
+}
+.card-info{
+	border-radius: 0px 20px 0px 20px;
+	border: 1px solid black;
+}
+.item-grid h2{
+	font-size: 30px;
+	margin: 10px;
+	text-shadow: 2px 2px 5px red;
+}
+.item-grid h4{
+	font-size: 25px;
+	margin: 10px;
+	text-shadow: 2px 2px 5px red;
+}
+.item-grid p{
+	font-size: 22px;
+	color:brown;
+}
+.hi{
+	padding-left: 20px;
+	font-size: 20px;
+	text-shadow: 2px 2px 5px red;
+}
+.col{
+	float: left;
+	width: 30%;
+	padding-top:5px;
+	padding-bottom: 10px;
+  }
+  .row::after{
+	content: "";
+	clear: both;
+	display: table;
+  }
